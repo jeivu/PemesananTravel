@@ -11,7 +11,7 @@ MySQL (Sistem database yang digunakan)
 { Cara Setup dan Menjalankan Aplikasi }
 1. Kloning Repositori & Instalasi PHP
 
-git clone [URL_REPOSITORI_ANDA] PemesananTravel
+git clone https://github.com/jeivu/PemesananTravel PemesananTravel
 cd PemesananTravel
 composer install
 
