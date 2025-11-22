@@ -11,12 +11,14 @@ MySQL (Sistem database yang digunakan)
 { Cara Setup dan Menjalankan Aplikasi }
 1. Kloning Repositori & Instalasi PHP
 
+```bash
 git clone https://github.com/jeivu/PemesananTravel PemesananTravel
 cd PemesananTravel
 composer install
 
 2. Konfigurasi Lingkungan (.env)
 
+```bash
 cp .env.example .env
 php artisan key:generate
 
@@ -29,15 +31,18 @@ DB_PASSWORD=
 
 3. Migrasi Database dan Data Awal
 
+```bash
 php artisan migrate:fresh --seed
 
 4. Instalasi dan Kompilasi Frontend
 
+```bash
 npm install
 npm run dev
 
 5. Menjalankan Server Laravel
 
+```bash
 php artisan serve
 
 { Akun Login Pengujian }
