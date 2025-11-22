@@ -1,0 +1,1 @@
+<img src="{{ asset('images/sleek-plane.png') }}" alt="Logo Travel" {{ $attributes->merge(['class' => 'h-9 w-auto']) }} />
